@@ -18,7 +18,7 @@ const corsOptions = {
       'http://localhost:5173',     // Vite default
       'http://127.0.0.1:5173',     // Vite default
       'http://127.0.0.1:3000',    // Vite default alternative
-      'https://yourdomain.com',    // Your production domain
+      'https://accredian-frontend-task-nu-azure.vercel.app/',    // Your production domain
     ];
     
     // Allow requests with no origin (like mobile apps or curl requests)

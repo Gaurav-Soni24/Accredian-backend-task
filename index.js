@@ -45,6 +45,10 @@ emailjs.init({
   privateKey: process.env.EMAILJS_PRIVATE_KEY,
 });
 
+app.get('/', (req, res) => {
+  res.send('Welcome to Referral API🚀');
+});
+
 // Referral API Endpoint
 app.post('/api/referral', async (req, res) => {
   try {

@@ -1,28 +1,28 @@
 {
   "name": "accredian-backend-task",
   "version": "1.0.0",
-  "description": "",
+  "description": "Backend task for Accredian",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
     "dev": "nodemon index.js",
-    "vercel-build": "prisma generate && node index.js"
+    "vercel-build": "prisma generate"
   },
   "keywords": [],
-  "author": "",
+  "author": "Gaurav Soni",
   "license": "ISC",
   "dependencies": {
-    "@emailjs/browser": "^4.4.1",
     "@emailjs/nodejs": "^5.0.2",
     "@prisma/client": "^6.3.1",
     "axios": "^1.7.9",
     "dotenv": "^16.4.7",
-    "emailjs": "^4.0.3",
-    "emailjs-com": "^3.2.0",
     "express": "^4.21.2",
     "mysql2": "^3.12.0",
     "nodemailer": "^6.10.0",
     "prisma": "^6.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
   }
 }
